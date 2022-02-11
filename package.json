@@ -7,10 +7,13 @@
     "vscode": "^1.64.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Themes",
+    "Keymaps"
   ],
   "activationEvents": [
-    "onCommand:vscode-rainbar.helloWorld"
+    "onCommand:vscode-rainbar.helloWorld",
+    "*"
   ],
   "main": "./extension.js",
   "contributes": {
@@ -38,6 +41,16 @@
     "standard": "^16.0.4",
     "typescript": "^4.5.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eomm/vscode-rainbar.git"
+  },
+  "author": "Manuel Spigolon <behemoth89@gmail.com> (https://github.com/Eomm)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eomm/vscode-rainbar/issues"
+  },
+  "homepage": "https://github.com/Eomm/vscode-rainbar#readme",
   "keywords": [
     "bar color",
     "title bar color",
@@ -45,5 +58,9 @@
     "project",
     "project color",
     "settings"
-  ]
+  ],
+  "dependencies": {
+    "colord": "^2.9.2",
+    "text-hex": "^1.0.0"
+  }
 }

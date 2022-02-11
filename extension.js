@@ -12,16 +12,11 @@ function activate (context) {
   // This line of code will only be executed once when your extension is activated
   console.log('Congratulations, your extension "vscode-rainbar" is now active!')
 
-  // The command has been defined in the package.json file
-  // Now provide the implementation of the command with  registerCommand
-  // The commandId parameter must match the command field in package.json
-  const disposable = vscode.commands.registerCommand('vscode-rainbar.helloWorld', function () {
-    // The code you place here will be executed every time your command is executed
-
+  const disposable = vscode.commands.registerCommand('vscode-rainbar.helloWorld', async function () {
     // Display a message box to the user
-    vscode.window.showInformationMessage('Hello World from vscode-rainbar!')
+    // vscode.window.showInformationMessage('Hello World from vscode-rainbar!')
 
-    applyColor()
+    await applyColor({ random: true })
   })
 
   context.subscriptions.push(disposable)
