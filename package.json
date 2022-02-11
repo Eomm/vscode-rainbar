@@ -1,0 +1,49 @@
+{
+  "name": "vscode-rainbar",
+  "displayName": "RainBar",
+  "description": "Color your project's bars to find it when you open too many projects!",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.64.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:vscode-rainbar.helloWorld"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-rainbar.helloWorld",
+        "title": "Hello World"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "standard --env mocha",
+    "lint:fix": "npm run lint -- --fix",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "14.x",
+    "@types/vscode": "^1.64.0",
+    "@vscode/test-electron": "^2.0.3",
+    "glob": "^7.2.0",
+    "mocha": "^9.1.3",
+    "standard": "^16.0.4",
+    "typescript": "^4.5.4"
+  },
+  "keywords": [
+    "bar color",
+    "title bar color",
+    "status bar color",
+    "project",
+    "project color",
+    "settings"
+  ]
+}
