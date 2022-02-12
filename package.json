@@ -42,10 +42,11 @@
         "rainbar.usage.applayTo": {
           "type": "string",
           "description": "Apply the color palette to the following bars:",
-          "default": "both",
+          "default": "all",
           "enum": [
-            "both",
+            "all",
             "title",
+            "activity",
             "status"
           ]
         },
