@@ -17,6 +17,7 @@ It is very useful whan you have a lot of windows open and you need to switch bet
 ### How it works
 
 This extension relies on the `.vscode/settings.json` file to store the color palette.
+You should add this file to your `.gitignore` file if you change the palette often.
 
 ### New palette on open
 

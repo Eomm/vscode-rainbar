@@ -3,7 +3,7 @@
   "displayName": "RainBar",
   "description": "Color your project's bars to find it when you open too many windows!",
   "version": "1.0.0",
-  "publisher": "Eomm",
+  "publisher": "vscode-eomm",
   "main": "./extension.js",
   "icon": "images/rainbar-icon.png",
   "preview": false,

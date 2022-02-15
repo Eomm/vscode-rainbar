@@ -8,6 +8,110 @@
     }
   },
   {
+    "title": "Sprite",
+    "colors": {
+      "bg":"54086B",
+      "fg":"FF0BAC",
+      "br":"050833"
+    }
+  },
+  {
+    "title": "Wave",
+    "colors": {
+      "bg":"053D57",
+      "fg":"F2F1EF",
+      "br":"006884"
+    }
+  },
+  {
+    "title": "Tommy",
+    "colors": {
+      "bg":"000000",
+      "fg":"FBFBFB",
+      "br":"F41F4E"
+    }
+  },
+  {
+    "title": "Neon",
+    "colors": {
+      "bg":"07040A",
+      "fg":"B175FF",
+      "br":"AB0552"
+    }
+  },
+  {
+    "title": "Watermelon",
+    "colors": {
+      "bg":"E34234",
+      "fg":"050533",
+      "br":"F2F1E8"
+    }
+  },
+  {
+    "title": "Makeup",
+    "colors": {
+      "bg":"8155BA",
+      "fg":"281C2D",
+      "br":"695E93"
+    }
+  },
+  {
+    "title": "Road Trip",
+    "colors": {
+      "bg":"444444",
+      "fg":"B1B1B1",
+      "br":"747474"
+    }
+  },
+  {
+    "title": "France",
+    "colors": {
+      "bg":"922C40",
+      "fg":"1E2640",
+      "br":"DC9750"
+    }
+  },
+  {
+    "title": "Mud",
+    "colors": {
+      "bg":"6F5B3E",
+      "fg":"C4AE78",
+      "br":"171515"
+    }
+  },
+  {
+    "title": "Vitamin",
+    "colors": {
+      "bg":"FD7F20",
+      "fg":"010100",
+      "br":"FC2E20"
+    }
+  },
+  {
+    "title": "Choco",
+    "colors": {
+      "bg":"523A28",
+      "fg":"D0B49F",
+      "br":"A47551"
+    }
+  },
+  {
+    "title": "Lavanda",
+    "colors": {
+      "bg":"613659",
+      "fg":"C197D2",
+      "br":"D3B1C2"
+    }
+  },
+  {
+    "title": "Classic Navy",
+    "colors": {
+      "bg":"004369",
+      "fg":"E5DDC8",
+      "br":"DB1F48"
+    }
+  },
+  {
     "title": "MuMu",
     "colors": {
       "bg":"B68D40",
