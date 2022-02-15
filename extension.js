@@ -2,26 +2,30 @@
 
 const vscode = require('vscode')
 
+const readConfig = require('./lib/ext-config')
 const applyColor = require('./lib/apply-color')
 
 /**
  * @param {vscode.ExtensionContext} context
  */
-function activate (context) {
-  // Use the console to output diagnostic information (console.log) and errors (console.error)
-  // This line of code will only be executed once when your extension is activated
-  console.log('Congratulations, your extension "vscode-rainbar" is now active!')
-
-  const disposable = vscode.commands.registerCommand('vscode-rainbar.helloWorld', async function () {
-    // Display a message box to the user
-    // vscode.window.showInformationMessage('Hello World from vscode-rainbar!')
-
-    await applyColor({ random: true })
-  })
-
+async function activate (context) {
+  const disposable = vscode.commands.registerCommand('vscode-rainbar.applyRandomPalette', applyPalette.bind(null, { force: true }))
   context.subscriptions.push(disposable)
 
-  applyColor()
+  const { onStart } = readConfig(vscode)
+  if (onStart) {
+    await applyPalette()
+  }
+}
+
+async function applyPalette (opts) {
+  try {
+    const { title } = await applyColor(opts)
+    vscode.window.setStatusBarMessage(`RainBar palette: ${title}`, 2600)
+  } catch (error) {
+    vscode.window.showErrorMessage('Error applying RainBar palette')
+    console.error(error)
+  }
 }
 
 function deactivate () {

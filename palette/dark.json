@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Icelandic",
+    "colors": {
+      "bg":"145DA0",
+      "fg":"0C2D48",
+      "br":"B1D4E0"
+    }
+  },
+  {
+    "title": "MuMu",
+    "colors": {
+      "bg":"B68D40",
+      "fg":"122620",
+      "br":"D6AD60"
+    }
+  }
+]
