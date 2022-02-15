@@ -1,20 +1,41 @@
-# vscode-rainbar README
+# RainBar
 
-This is the README for your extension "vscode-rainbar". After writing up a brief description, we recommend including the following sections.
+Color your VSCode windows!
+
+<p align="center">
+  <img src="ABS link" alt="RainBar logo" />
+</p>
+
+_Logo by [@nglngl](https://github.com/nglngl)_
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+RainBar is an etension for [Visual Studio Code](https://code.visualstudio.com/).  
+It colors every window in VSCode with a random color palette.
+It is very useful whan you have a lot of windows open and you need to switch between them.
 
-For example if there is an image subfolder under your extension project workspace:
+### How it works
 
-\!\[feature X\]\(images/feature-x.png\)
+This extension relies on the `.vscode/settings.json` file to store the color palette.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+### New palette on open
 
-## Requirements
+It applies a new palette to the workspace every time a new VS Code window is opened.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+### Override palette
+
+By default, RainBar will not overwrite the workspace's color customization.
+You can override this behavior by turning on the `rainbar.usage.overwrite` setting.
+
+### Apply to
+
+Choose what RainBar should color: the title bar, the status bar or the activity bar.. or all of them!
+
+### Themes
+
+You can set the preferred color palette by setting the `rainbar.palette.hue` option.
+Do you want to add some color palette or themes? Open a Pull Request!
+
 
 ## Extension Settings
 
@@ -24,42 +45,14 @@ For example:
 
 This extension contributes the following settings:
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+| Option | Default | Description |
+| ------ | ------- | ----------- |
+| `rainbar.usage.onStart`     | true | Whether to apply a new palette on start |
+| `rainbar.usage.overwrite`   | false | Whether to overwrite the workspace's color customization |
+| `rainbar.usage.applayTo`    | `all` | The VS's bar to color |
+| `rainbar.palette.hue`       | `dark` | The preferred color theme to pick from |
 
-## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## License
 
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Copyright [Manuel Spigolon](https://github.com/Eomm), Licensed under [MIT](./LICENSE).
