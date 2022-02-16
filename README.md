@@ -38,6 +38,13 @@ You can set the preferred color palette by setting the `rainbar.palette.hue` opt
 Do you want to add some color palette or themes? Open a Pull Request!
 
 
+## Extension Commands
+
+| Command | Description |
+|---------|-------------|
+| `vscode-rainbar.applyRandomPalette` | Force to apply a new palette to the workspace |
+
+
 ## Extension Settings
 
 Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
