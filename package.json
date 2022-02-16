@@ -1,0 +1,103 @@
+{
+  "name": "vscode-rainbar",
+  "displayName": "RainBar",
+  "description": "Color your project's bars to find it when you open too many windows!",
+  "version": "1.0.0",
+  "publisher": "vscode-eomm",
+  "main": "./extension.js",
+  "icon": "images/rainbar-256.png",
+  "preview": false,
+  "engines": {
+    "vscode": "^1.64.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eomm/vscode-rainbar.git"
+  },
+  "author": "Manuel Spigolon <behemoth89@gmail.com> (https://github.com/Eomm)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eomm/vscode-rainbar/issues"
+  },
+  "homepage": "https://github.com/Eomm/vscode-rainbar#readme",
+  "keywords": [
+    "bar color",
+    "title bar color",
+    "status bar color",
+    "project",
+    "project color",
+    "settings"
+  ],
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "activationEvents": [
+    "onCommand:vscode-rainbar.applyRandomPalette",
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-rainbar.applyRandomPalette",
+        "title": "RainBar: Apply a fresh color palette"
+      }
+    ],
+    "configuration": {
+      "title": "RainBar",
+      "properties": {
+        "rainbar.usage.onStart": {
+          "type": "boolean",
+          "scope": "application",
+          "default": true,
+          "description": "Apply a fresh color palette every time you open a workspace"
+        },
+        "rainbar.usage.applayTo": {
+          "type": "string",
+          "description": "Apply the color palette to the following bars:",
+          "default": "all",
+          "enum": [
+            "all",
+            "title",
+            "activity",
+            "status"
+          ]
+        },
+        "rainbar.usage.overwrite": {
+          "type": "boolean",
+          "default": false,
+          "description": "Overwrite the current workspace's color palette if present the next time you open a project"
+        },
+        "rainbar.palette.hue": {
+          "type": "string",
+          "description": "Set your preferred color theme. It will be used the next time a palette is applied",
+          "default": "dark",
+          "enum": [
+            "dark",
+            "light"
+          ]
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "standard --env mocha",
+    "lint:fix": "npm run lint -- --fix",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js",
+    "vscode:package": "vsce package",
+    "vscode:publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.0.0",
+    "@types/node": "14.x",
+    "@types/vscode": "^1.64.0",
+    "@vscode/test-electron": "^2.0.3",
+    "mocha": "^9.1.3",
+    "standard": "^16.0.4",
+    "vsce": "^2.6.7"
+  },
+  "dependencies": {
+    "colord": "^2.9.2"
+  }
+}
