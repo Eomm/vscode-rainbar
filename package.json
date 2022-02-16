@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "publisher": "vscode-eomm",
   "main": "./extension.js",
-  "icon": "images/rainbar-icon.png",
+  "icon": "images/rainbar-256.png",
   "preview": false,
   "engines": {
     "vscode": "^1.64.0"
@@ -70,7 +70,7 @@
         },
         "rainbar.palette.hue": {
           "type": "string",
-          "description": "Set your preferred color palette to use in the extension",
+          "description": "Set your preferred color theme. It will be used the next time a palette is applied",
           "default": "dark",
           "enum": [
             "dark",

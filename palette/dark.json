@@ -16,6 +16,70 @@
     }
   },
   {
+    "title": "Pinocchio",
+    "colors": {
+      "bg":"705446",
+      "fg":"E1C391",
+      "br":"3C3431"
+    }
+  },
+  {
+    "title": "Cremisi",
+    "colors": {
+      "bg":"4B0000",
+      "fg":"1F6C66",
+      "br":"E7E6E3"
+    }
+  },
+  {
+    "title": "Uncle",
+    "colors": {
+      "bg":"183A50",
+      "fg":"BB616C",
+      "br":"89ACAA"
+    }
+  },
+  {
+    "title": "Pistachio",
+    "colors": {
+      "bg":"37520B",
+      "fg":"DEE64C",
+      "br":"66930C"
+    }
+  },
+  {
+    "title": "Aurora",
+    "colors": {
+      "bg":"09323B",
+      "fg":"14E114",
+      "br":"117660"
+    }
+  },
+  {
+    "title": "Candy Cake",
+    "colors": {
+      "bg":"490E08",
+      "fg":"F1A17E",
+      "br":"F7DC6F"
+    }
+  },
+  {
+    "title": "Coat",
+    "colors": {
+      "bg":"105160",
+      "fg":"CD966B",
+      "br":"3B2244"
+    }
+  },
+  {
+    "title": "Bee",
+    "colors": {
+      "bg":"221530",
+      "fg":"F9E830",
+      "br":"F52870"
+    }
+  },
+  {
     "title": "Wave",
     "colors": {
       "bg":"053D57",

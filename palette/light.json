@@ -1,10 +1,82 @@
 [
   {
-    "title": "F l a m i n g o",
+    "title": "Blurred",
     "colors": {
-      "bg":"E9AB84",
-      "fg":"FFFFFF",
-      "br":"FFCB00"
+      "bg":"6DD3D0",
+      "fg":"353C40",
+      "br":"FEDFE0"
+    }
+  },
+  {
+    "title": "Raspberry Pi Zero",
+    "colors": {
+      "bg":"F7F5F6",
+      "fg":"FF2768",
+      "br":"BCECF6"
+    }
+  },
+  {
+    "title": "Sandbox",
+    "colors": {
+      "bg":"F7F9A7",
+      "fg":"0086CB",
+      "br":"F0F9F9"
+    }
+  },
+  {
+    "title": "Pink Attack",
+    "colors": {
+      "bg":"FF8EF9",
+      "fg":"FEFF60",
+      "br":"B22A80"
+    }
+  },
+  {
+    "title": "Flower Power",
+    "colors": {
+      "bg":"B4F8C8",
+      "fg":"F97FBD",
+      "br":"EFD8BF"
+    }
+  },
+  {
+    "title": "Pop",
+    "colors": {
+      "bg":"45CDE1",
+      "fg":"9D1B6F",
+      "br":"FFC460"
+    }
+  },
+  {
+    "title": "Soft",
+    "colors": {
+      "bg":"FBE5E0",
+      "fg":"9C5A40",
+      "br":"F6EBE0"
+    }
+  },
+  {
+    "title": "Surf",
+    "colors": {
+      "bg":"B6E2D3",
+      "fg":"A5A994",
+      "br":"15A9A9"
+    }
+  },
+  {
+    "title": "Minty",
+    "colors": {
+      "bg":"1AD6CC",
+      "fg":"EB3298",
+      "br":"F5DC16"
+    }
+  },
+  {
+    "title": "Tropical",
+    "colors": {
+      "bg":"F4BB84",
+      "fg":"F83C31",
+      "br":"F9E9E9"
     }
   }
 ]
