@@ -3,7 +3,7 @@
 Color your VSCode windows!
 
 <p align="center">
-  <img src="https://github.com/Eomm/vscode-rainbar/blob/HEAD/images/rainbar-256.png" alt="RainBar logo" />
+  <img src="https://raw.githubusercontent.com/Eomm/vscode-rainbar/742cd678b5b8ba5fa1038cf587abc4f858568cc4/images/rainbar-256.png" alt="RainBar logo" />
 </p>
 
 _Logo by [@nglngl](https://github.com/nglngl)_
