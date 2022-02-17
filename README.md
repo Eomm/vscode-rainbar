@@ -57,7 +57,7 @@ This extension contributes the following settings:
 | ------ | ------- | ----------- |
 | `rainbar.usage.onStart`     | true | Whether to apply a new palette on start |
 | `rainbar.usage.overwrite`   | false | Whether to overwrite the workspace's color customization |
-| `rainbar.usage.applayTo`    | `all` | The VS's bar to color |
+| `rainbar.usage.applyTo`    | `all` | The VS's bar to color |
 | `rainbar.palette.hue`       | `dark` | The preferred color theme to pick from |
 
 

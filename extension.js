@@ -20,16 +20,19 @@ async function activate (context) {
 
 async function applyPalette (opts) {
   try {
+    if (!vscode.workspace.workspaceFolders) {
+      return
+    }
     const { title } = await applyColor(opts)
     vscode.window.setStatusBarMessage(`RainBar palette: ${title}`, 2600)
   } catch (error) {
-    vscode.window.showErrorMessage('Error applying RainBar palette')
+    vscode.window.showErrorMessage(`Error applying RainBar palette:\n${error.message}`)
     console.error(error)
   }
 }
 
 function deactivate () {
-  // TODO restore color
+  // do nothing
 }
 
 module.exports = {

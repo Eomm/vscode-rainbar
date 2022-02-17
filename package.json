@@ -2,7 +2,7 @@
   "name": "vscode-rainbar",
   "displayName": "RainBar",
   "description": "Color your project's bars to find it when you open too many windows!",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "vscode-eomm",
   "main": "./extension.js",
   "icon": "images/rainbar-256.png",
@@ -52,7 +52,7 @@
           "default": true,
           "description": "Apply a fresh color palette every time you open a workspace"
         },
-        "rainbar.usage.applayTo": {
+        "rainbar.usage.applyTo": {
           "type": "string",
           "description": "Apply the color palette to the following bars:",
           "default": "all",
@@ -74,7 +74,13 @@
           "default": "dark",
           "enum": [
             "dark",
-            "light"
+            "light",
+            "angy"
+          ],
+          "enumDescriptions": [
+            "Dark color scheme",
+            "Light color scheme",
+            "High quality color scheme"
           ]
         }
       }
