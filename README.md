@@ -3,7 +3,7 @@
 Color your VSCode windows!
 
 <p align="center">
-  <img src="./images/rainbar-128.png" alt="RainBar logo" />
+  <img src="https://raw.githubusercontent.com/Eomm/vscode-rainbar/742cd678b5b8ba5fa1038cf587abc4f858568cc4/images/rainbar-256.png" alt="RainBar logo" />
 </p>
 
 _Logo by [@nglngl](https://github.com/nglngl)_
@@ -38,6 +38,13 @@ You can set the preferred color palette by setting the `rainbar.palette.hue` opt
 Do you want to add some color palette or themes? Open a Pull Request!
 
 
+## Extension Commands
+
+| Command | Description |
+|---------|-------------|
+| `vscode-rainbar.applyRandomPalette` | Force to apply a new palette to the workspace |
+
+
 ## Extension Settings
 
 Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
@@ -50,7 +57,7 @@ This extension contributes the following settings:
 | ------ | ------- | ----------- |
 | `rainbar.usage.onStart`     | true | Whether to apply a new palette on start |
 | `rainbar.usage.overwrite`   | false | Whether to overwrite the workspace's color customization |
-| `rainbar.usage.applayTo`    | `all` | The VS's bar to color |
+| `rainbar.usage.applyTo`    | `all` | The VS's bar to color |
 | `rainbar.palette.hue`       | `dark` | The preferred color theme to pick from |
 
 

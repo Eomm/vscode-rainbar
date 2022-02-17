@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Pisa",
+    "colors": {
+      "ti":"D2BE88",
+      "bg":"FBE7B2",
+      "st":"E9DBB7",
+      "fg":"52358C",
+      "br":"C3B48B"
+    }
+  },
+  {
+    "title": "Modena",
+    "colors": {
+      "ti":"549B9D",
+      "bg":"7AC6C8",
+      "st":"71ACAD",
+      "fg":"0B2A34",
+      "br":"3F7F81"
+    }
+  },
+  {
+    "title": "Mosto",
+    "colors": {
+      "ti":"82537F",
+      "bg":"AD6FA9",
+      "st":"B881B4",
+      "fg":"190C24",
+      "br":"82537F"
+    }
+  }
+]
