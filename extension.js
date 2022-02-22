@@ -3,18 +3,21 @@
 const vscode = require('vscode')
 
 const readConfig = require('./lib/ext-config')
+const stateManager = require('./lib/ext-state')
 const applyColor = require('./lib/apply-color')
 
 /**
  * @param {vscode.ExtensionContext} context
  */
 async function activate (context) {
-  const disposable = vscode.commands.registerCommand('vscode-rainbar.applyRandomPalette', applyPalette.bind(null, { force: true }))
+  const state = stateManager(context)
+
+  const disposable = vscode.commands.registerCommand('vscode-rainbar.applyRandomPalette', applyPalette.bind(null, { state, force: true }))
   context.subscriptions.push(disposable)
 
   const { onStart } = readConfig(vscode)
   if (onStart) {
-    await applyPalette()
+    await applyPalette({ state })
   }
 }
 
