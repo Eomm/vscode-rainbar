@@ -1,14 +1,13 @@
-# RainBar
-
-Color your VSCode windows!
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Eomm/vscode-rainbar/742cd678b5b8ba5fa1038cf587abc4f858568cc4/images/rainbar-256.png" alt="RainBar logo" />
+  <img src="https://raw.githubusercontent.com/Eomm/vscode-rainbar/742cd678b5b8ba5fa1038cf587abc4f858568cc4/images/rainbar-128.png" alt="RainBar logo" />
+  <img src="./images/rainbar-hero.png" alt="RainBar Preview" />
 </p>
 
 _Logo by [@nglngl](https://github.com/nglngl)_
 
-## Features
+## RainBar
+
+Color your VSCode windows!
 
 RainBar is an etension for [Visual Studio Code](https://code.visualstudio.com/).  
 It colors every window in VSCode with a random color palette.
