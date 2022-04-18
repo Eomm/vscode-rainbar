@@ -28,5 +28,75 @@
       "fg":"190C24",
       "br":"82537F"
     }
+  },
+  {
+    "title": "Menta",
+    "colors": {
+      "ti":"44DAB6",
+      "bg":"61EFCD",
+      "st":"42CCAB",
+      "fg":"1C6B58",
+      "br":"2F9980"
+    }
+  },
+  {
+    "title": "Maraschino",
+    "colors": {
+      "ti":"EA4865",
+      "bg":"F06B83",
+      "st":"DA3552",
+      "fg":"6F1726",
+      "br":"B0344B"
+    }
+  },
+  {
+    "title": "Zucchero",
+    "colors": {
+      "ti":"EEF2F3",
+      "bg":"FAFAFA",
+      "st":"E8EEEF",
+      "fg":"8EA6C9",
+      "br":"DFE0F3"
+    }
+  },
+  {
+    "title": "Melanzana",
+    "colors": {
+      "ti":"7659A3",
+      "bg":"997FC2",
+      "st":"8A6CBA",
+      "fg":"2C1C45",
+      "br":"4B2C7B"
+    }
+  },
+  {
+    "title": "Basilico",
+    "colors": {
+      "ti":"A6D83D",
+      "bg":"BEE077",
+      "st":"98C538",
+      "fg":"1C6B58",
+      "br":"2F9980"
+    }
+  },
+  {
+    "title": "Grano",
+    "colors": {
+      "ti":"F2C561",
+      "bg":"FEE4AB",
+      "st":"F8D383",
+      "fg":"A77508",
+      "br":"D3AD58"
+    }
+  },
+  {
+    "title": "Mandarino",
+    "colors": {
+      "ti":"FC8948",
+      "bg":"F9A272",
+      "st":"E39568",
+      "fg":"BC551B",
+      "br":"DA8D62"
+    }
   }
 ]
