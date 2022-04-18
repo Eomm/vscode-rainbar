@@ -4,6 +4,10 @@ All notable changes to the "vscode-rainbar" extension will be documented in this
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [v1.3.0]
+
+- 7 new angy's palettes
+
 ## [v1.2.0]
 
 - No repeating palette colors: when a random color is selected, the last one is not repeated.
