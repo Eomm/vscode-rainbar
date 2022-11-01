@@ -7,7 +7,7 @@ _Logo by [@nglngl](https://github.com/nglngl)_
 
 ## RainBar
 
-![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/vscode-eomm.vscode-rainbar?style=plastic)
+[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/vscode-eomm.vscode-rainbar?style=plastic)](https://marketplace.visualstudio.com/items?itemName=vscode-eomm.vscode-rainbar)
 
 Color your VSCode windows! 
 
